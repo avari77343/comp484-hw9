@@ -7,7 +7,7 @@
 ## GitHub Pages
 After publishing, replace this placeholder with your live URL:
 
-`https://YOUR-USERNAME.github.io/comp484-hw9/`
+https://avari77343.github.io/comp484-hw9/
 
 ## Files
 - `index.html` — page structure and output sections

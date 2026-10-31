@@ -1,0 +1,28 @@
+/* Navy, slate, and teal dashboard palette */
+* { box-sizing: border-box; }
+body { margin: 0; background: #101a2b; color: #edf4f7; font: 16px/1.6 Arial, sans-serif; }
+header { padding: 48px max(7%, calc((100% - 1050px)/2)); background: linear-gradient(120deg,#172940,#203d55); border-bottom: 3px solid #20c4ad; }
+h1 { margin: 4px 0 8px; font-size: clamp(2.2rem,5vw,3.5rem); line-height: 1.1; }
+header p:not(.eyebrow) { color: #c1d0dc; }
+.eyebrow, small { color: #20c4ad; font-size: .76rem; font-weight: bold; letter-spacing: .14em; }
+.tag { display: inline-block; padding: 5px 10px; border: 1px solid #527187; border-radius: 4px; font-size: .75rem; }
+main { width: min(1050px,86%); margin: 32px auto; }
+.panel { margin-bottom: 22px; padding: 25px 29px; background: #1a2a40; border: 1px solid #31465e; border-radius: 10px; box-shadow: 0 12px 28px #0003; }
+.heading { display: flex; align-items: center; gap: 15px; }
+.heading b { display: grid; place-items: center; width: 45px; height: 45px; border-radius: 8px; background: #203d55; color: #20c4ad; }
+h2 { margin: 0; font-size: 1.55rem; }
+.desc { color: #b9c9d5; }
+.date { display: inline-block; padding: 12px 18px; border-left: 4px solid #20c4ad; background: #223a50; font-size: 1.35rem; font-weight: bold; }
+#numberConversionOutput > p { margin: 0; padding: 11px 13px; border-bottom: 1px solid #344b62; overflow-wrap: anywhere; }
+#numberConversionOutput > p:nth-child(odd) { background: #20334a; }
+.notice { margin-top: 15px; padding: 11px 15px; border-left: 4px solid #ffad62; background: #26374a; color: #f3dfc9; }
+.notice p { margin: 3px 0; }
+.scores { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; margin: 18px 0; }
+.scores div { padding: 14px; border: 1px solid #3b566d; border-radius: 7px; background: #20364c; }
+.scores span { display: block; color: #b9c9d5; font-size: .86rem; }
+.scores strong { font-size: 1.6rem; }
+.total,.average { display: flex; justify-content: space-between; padding: 11px 3px; border-bottom: 1px solid #3b5066; }
+.average strong { color: #20c4ad; font-size: 2rem; }
+footer { display: flex; justify-content: space-between; padding: 18px 2px; color: #91a6b7; font-size: .8rem; letter-spacing: .08em; }
+footer span { color: #20c4ad; }
+@media(max-width:700px) { header { padding: 36px 6%; } main { width: 92%; } .panel { padding: 20px 17px; } .scores { grid-template-columns: repeat(2,1fr); } footer { flex-direction: column; } }

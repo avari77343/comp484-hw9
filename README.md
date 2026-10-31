@@ -2,7 +2,7 @@
 
 **Student:** Angelo  
 **Course:** COMP 484  
-**Project:** JavaScript Mini Demo — Grade Calculator
+**Project:** JavaScript Mini Demo
 
 ## GitHub Pages
 After publishing, replace this placeholder with your live URL:
